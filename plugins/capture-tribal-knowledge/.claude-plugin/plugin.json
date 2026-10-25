@@ -1,6 +1,6 @@
 {
   "name": "capture-tribal-knowledge",
-  "description": "Interview a subject-matter expert to extract tacit know-how, then package it as a reusable skill someone else can follow.",
+  "description": "Interview a subject-matter expert to extract tacit know-how, then write it up as a Confluence-ready runbook, a reusable Claude skill, or both.",
   "version": "0.1.0",
   "author": {
     "name": "Colin M."
