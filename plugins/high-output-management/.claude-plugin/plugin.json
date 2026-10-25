@@ -1,0 +1,9 @@
+{
+  "name": "high-output-management",
+  "description": "Apply Andy Grove's High Output Management to your team: leverage, meetings and 1:1s, OKRs, indicators, task-relevant maturity, delegation, performance reviews.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Colin M."
+  },
+  "license": "MIT"
+}
