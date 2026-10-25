@@ -20,7 +20,7 @@ Experts asked to "write it down" produce the textbook version: the happy path, i
 ### 0. Scope (2–3 questions, no more)
 
 Settle these before the interview, in one message:
-- **Topic**: one process, not a role. "Fixing failed `parse_and_detect` integration builds" not "what Divya does." If they give a role, split it into candidate topics and ask which one first.
+- **Topic**: one process, not a role. "Fixing failed `parse_and_detect` integration builds" not "what Mike does." If they give a role, split it into candidate topics and ask which one first.
 - **Audience**: who runs this next — a human engineer, a Claude agent, or both? This changes how much you spell out tooling.
 - **Mode**: live interview (back-and-forth here) or async (you produce a questionnaire the expert fills out in their own time; see `references/interview-playbook.md` → "Async mode").
 

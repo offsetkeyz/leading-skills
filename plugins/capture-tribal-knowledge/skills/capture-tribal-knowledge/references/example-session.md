@@ -20,7 +20,7 @@ Fictional details; the pattern is what matters.
 
 **Claude:** Tell me about the last time a build failed. The actual last one, not a typical one. What did you see first?
 
-**Expert:** Last Thursday. Divya pinged me, `build-wheel` was red. I opened the log, saw `could not resolve dependency parse-core>=2.4`, knew it was the cache, cleared it, reran, done.
+**Expert:** Last Thursday. Mike pinged me, `build-wheel` was red. I opened the log, saw `could not resolve dependency parse-core>=2.4`, knew it was the cache, cleared it, reran, done.
 
 > *"Knew it was the cache" — how? That's the cue we need.*
 
