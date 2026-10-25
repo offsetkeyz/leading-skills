@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: runbook-from-questionnaire
+expected_outcome: |
+  A single Confluence-pasteable markdown runbook (not a Claude skill) built from the questionnaire,
+  led by a symptom table, with procedures, warnings about clearing the whole DAG and TRUNCATE,
+  escalation rules, open questions (partial upstream files, broken alert, backfill idempotency), and
+  suggested page title/labels delivered alongside.
+context:
+  scaffold_script: place-files.sh

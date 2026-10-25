@@ -32,3 +32,13 @@ Local testing: `/plugin marketplace add ./` from this folder.
 ```
 cd plugins/<name>/skills && zip -r ../../../dist/<name>.skill <name>
 ```
+
+## Evals
+
+Test cases live in `evals/<skill-name>/` at the repo root, not inside the plugin, so they don't ship with `/plugin install` or `.skill` bundles. Same case-folder layout `claude plugin eval` reads; to run with the CLI, copy them next to the skill first:
+
+```
+cp -R evals/<name> plugins/<name>/skills/<name>/evals
+cd plugins/<name>/skills/<name> && claude plugin eval . --scaffold
+rm -rf evals
+```

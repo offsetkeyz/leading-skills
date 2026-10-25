@@ -25,7 +25,7 @@ description: <What this covers + when to use it. Name the symptoms a user would 
 
 # <Topic>
 
-One paragraph: what this process is, who used to own it, why it matters, and the state of this doc (date captured, from whom, provenance legend).
+One paragraph: what this process is, who used to own it, why it matters, and the state of this doc (date captured, from whom, provenance legend). If a runbook was produced too, name its Confluence page title here as the human-maintained source of truth.
 
 **Provenance legend:** `[verified]` = seen in an artifact or demonstrated · `[expert-stated]` = told to us, not demonstrated · `[inferred]` = our reconstruction, not contradicted by the expert. Trust in that order.
 
