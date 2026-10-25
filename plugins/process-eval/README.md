@@ -7,7 +7,7 @@ A universal skill that evaluates any process (business, ops, IT, personal) again
 Claude Code:
 
 ```
-/plugin marketplace add offsetkeyz/skills
+/plugin marketplace add offsetkeyz/leading-skills
 /plugin install process-eval@offsetkeyz-skills
 ```
 

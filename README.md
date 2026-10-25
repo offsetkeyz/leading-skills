@@ -5,7 +5,7 @@ Claude Code plugin marketplace of personal skills.
 ## Install
 
 ```
-/plugin marketplace add offsetkeyz/skills
+/plugin marketplace add offsetkeyz/leading-skills
 /plugin install find-your-voice@offsetkeyz-skills
 /plugin install process-eval@offsetkeyz-skills
 /plugin install capture-tribal-knowledge@offsetkeyz-skills
