@@ -8,6 +8,7 @@ Claude Code plugin marketplace of personal skills.
 /plugin marketplace add offsetkeyz/skills
 /plugin install find-your-voice@offsetkeyz-skills
 /plugin install process-eval@offsetkeyz-skills
+/plugin install capture-tribal-knowledge@offsetkeyz-skills
 ```
 
 Local testing: `/plugin marketplace add ./` from this folder.
@@ -18,6 +19,7 @@ Local testing: `/plugin marketplace add ./` from this folder.
 |---|---|
 | find-your-voice | Discover your writing voice, package it as a "write like me" skill |
 | process-eval | Evaluate any process against cited frameworks (ToC, Lean, ECRS, checklists). Questions first, then a ranked fix list |
+| capture-tribal-knowledge | Interview an expert, turn their tacit know-how into a Confluence runbook, a Claude skill, or both |
 
 ## Adding a skill
 
@@ -31,4 +33,14 @@ Local testing: `/plugin marketplace add ./` from this folder.
 
 ```
 cd plugins/<name>/skills && zip -r ../../../dist/<name>.skill <name>
+```
+
+## Evals
+
+Test cases live in `evals/<skill-name>/` at the repo root, not inside the plugin, so they don't ship with `/plugin install` or `.skill` bundles. Same case-folder layout `claude plugin eval` reads; to run with the CLI, copy them next to the skill first:
+
+```
+cp -R evals/<name> plugins/<name>/skills/<name>/evals
+cd plugins/<name>/skills/<name> && claude plugin eval . --scaffold
+rm -rf evals
 ```

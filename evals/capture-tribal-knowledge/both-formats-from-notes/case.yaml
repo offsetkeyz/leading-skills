@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: both-formats-from-notes
+expected_outcome: |
+  Two outputs with consistent facts: a Confluence-pasteable markdown runbook for humans and a Claude
+  skill folder (SKILL.md with YAML name/description) for an agent, with agent guard conditions before
+  destructive steps (tag push, App Store publish) and the hedged items (holiday rule, iOS build number)
+  flagged as uncertain/open.
+context:
+  scaffold_script: place-files.sh

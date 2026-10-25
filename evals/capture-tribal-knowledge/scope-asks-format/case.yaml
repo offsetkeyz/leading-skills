@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: scope-asks-format
+expected_outcome: |
+  The first response runs the scope step: a short message (2-3 questions max) confirming topic,
+  asking audience and output format (runbook / skill / both) with a recommended default, and live vs
+  async mode — without launching into a long batch of interview questions or writing a document yet.

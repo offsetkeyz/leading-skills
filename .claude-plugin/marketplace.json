@@ -21,6 +21,13 @@
       "description": "Evaluate any process against established, cited frameworks to find bottlenecks, steps to combine, and checklist candidates. Asks questions first, then reports.",
       "version": "0.1.0",
       "category": "productivity"
+    },
+    {
+      "name": "capture-tribal-knowledge",
+      "source": "./plugins/capture-tribal-knowledge",
+      "description": "Interview a subject-matter expert to extract tacit know-how, then write it up as a Confluence-ready runbook, a reusable Claude skill, or both.",
+      "version": "0.1.0",
+      "category": "productivity"
     }
   ]
 }
