@@ -9,6 +9,8 @@ Claude Code plugin marketplace of personal skills.
 /plugin install find-your-voice@offsetkeyz-skills
 /plugin install process-eval@offsetkeyz-skills
 /plugin install capture-tribal-knowledge@offsetkeyz-skills
+/plugin install high-output-management@offsetkeyz-skills
+/plugin install radical-candor@offsetkeyz-skills
 ```
 
 Local testing: `/plugin marketplace add ./` from this folder.
@@ -20,6 +22,10 @@ Local testing: `/plugin marketplace add ./` from this folder.
 | find-your-voice | Discover your writing voice, package it as a "write like me" skill |
 | process-eval | Evaluate any process against cited frameworks (ToC, Lean, ECRS, checklists). Questions first, then a ranked fix list |
 | capture-tribal-knowledge | Interview an expert, turn their tacit know-how into a Confluence runbook, a Claude skill, or both |
+| high-output-management | Grove's management system applied to your team: leverage, 1:1s, OKRs, indicators, delegation, reviews* |
+| radical-candor | Kim Scott's Radical Candor: feedback drafts, hard-conversation prep, culture building* |
+
+\* Adapted from [ClawFu skills](https://github.com/guia-matthieu/clawfu-skills) (MIT, © 2026 Guia); license kept in each plugin folder.
 
 ## Adding a skill
 

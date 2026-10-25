@@ -1,0 +1,9 @@
+{
+  "name": "radical-candor",
+  "description": "Coach feedback with Kim Scott's Radical Candor: draft feedback and praise, prep hard conversations, diagnose your quadrant, build a candor culture.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Colin M."
+  },
+  "license": "MIT"
+}

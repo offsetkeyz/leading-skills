@@ -28,6 +28,20 @@
       "description": "Interview a subject-matter expert to extract tacit know-how, then write it up as a Confluence-ready runbook, a reusable Claude skill, or both.",
       "version": "0.1.0",
       "category": "productivity"
+    },
+    {
+      "name": "high-output-management",
+      "source": "./plugins/high-output-management",
+      "description": "Apply Andy Grove's High Output Management to your team: leverage, meetings and 1:1s, OKRs, indicators, task-relevant maturity, delegation, performance reviews.",
+      "version": "0.1.0",
+      "category": "leadership"
+    },
+    {
+      "name": "radical-candor",
+      "source": "./plugins/radical-candor",
+      "description": "Coach feedback with Kim Scott's Radical Candor: draft feedback and praise, prep hard conversations, diagnose your quadrant, build a candor culture.",
+      "version": "0.1.0",
+      "category": "leadership"
     }
   ]
 }
